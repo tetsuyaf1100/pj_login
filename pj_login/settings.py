@@ -129,3 +129,6 @@ LOGOUT_REDIRECT_URL = "/login/"
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 SECURE_SSL_REDIRECT = True
 
+AUTH_USER_MODEL = 'registration.User'
+FRONTEND_URL = "https://localhost-tetsuyaf1100-1.paiza-user-free.cloud:8000"
+
